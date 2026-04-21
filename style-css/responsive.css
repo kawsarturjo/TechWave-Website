@@ -13,4 +13,29 @@
         display: block;
         cursor: pointer;
     }
+    .hero-background-circle{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        top: 160px;
+    }
+    .hero-background-circle img{
+        width: 46.67px;
+        height: 70px;
+    }
+    .hero-background-circle span{
+        top: 0px;
+        left: 185px;
+    }
+    .about-part-one{
+        width: 100%;
+    }
+    .about-part-two{
+        grid-template-columns: repeat(2, auto);
+        width: 100%;
+        gap: 40px 0px;
+    }
+    .about-section{
+        padding: 40px 20px;
+    }
 }
