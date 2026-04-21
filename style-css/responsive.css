@@ -1,0 +1,16 @@
+@media screen and (max-width: 576px) {
+    header{
+        width: 100%;
+        padding: 20px 20px;
+    }
+    nav{
+        display: none;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header-mobile-img{
+        display: block;
+        cursor: pointer;
+    }
+}

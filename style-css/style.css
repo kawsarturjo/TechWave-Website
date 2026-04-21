@@ -46,3 +46,6 @@ nav li a{
     border: none;
     background: linear-gradient(50deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
 }
+.header-mobile-img{
+    display: none;
+}
