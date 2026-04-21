@@ -38,4 +38,61 @@
     .about-section{
         padding: 40px 20px;
     }
+    .one{
+    width: 400px;
+    height: 287px;
+    padding: 24px 24px 24px 24px;
+}
+.two{
+    width: 400px;
+    height: 215px;
+    padding: 24px 24px 24px 24px;
+}
+.three{
+    width: 400px;
+    height: 215px;
+    padding: 24px 24px 24px 24px;
+}
+.four{
+    width: 400px;
+    height: 311px;
+    padding: 24px 24px 24px 24px;
+}
+.five{
+    width: 400px;
+    height: 215px;
+    padding: 24px 24px 24px 24px;
+}
+    .choose-section-grid{
+        justify-content: center;
+        width: 100%;
+        gap: 16px;
+    grid-template-areas: "one one one"
+                         "two two two" 
+                         "three three three"
+                         "four four four"
+                         "five five five";
+}
+.choose-section h1 {
+    font-size: 32px;
+}
+.chose-part-one h3{
+    font-size: 22px;
+}
+.featured-items-card{
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    width: 100%;
+    gap: 16px;
+}
+.featured-items{
+    margin-bottom: 0px;
+}
+.featured-section h1{
+    font-size: 32px;
+    padding: 0px 0px 24px 0px;
+}
+.featured-section{
+    padding: 40px;
+}
 }
