@@ -240,8 +240,10 @@ nav li a{
 /* choose-section-end */
 
 /* featured-section-start */
+.featured-and-section{
+     background-color: #1A0B2E;
+}
 .featured-section{
-    background-color: #1A0B2E;
     padding: 120px;
 }
 .featured-items-card{
@@ -294,3 +296,55 @@ nav li a{
     gap: 6px;
 }
 /* featured-section-end */
+
+/* meet-host-section-start */
+.meet-host-card{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 280px;
+    margin: 0 auto;
+    background-color: #35116540;
+    border-radius: 40px;
+    padding: 40px 40px;
+    gap: 24px;
+}
+.meet-host-section{
+    padding-bottom: 120px;
+}
+.meet-host-section h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 0px 0px 40px 0px;
+    text-align: center;
+}
+.meet-icons{
+    display: flex;
+    gap: 8px;
+}
+.meet-icons li{
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #533C72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meet-icons li a{
+    text-decoration: none;
+}
+.meet-host-right-content h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.meet-host-right-content p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff6f;
+    padding: 16px 0px;
+}
+/* meet-host-section-end */

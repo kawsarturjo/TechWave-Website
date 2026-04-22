@@ -95,4 +95,26 @@
 .featured-section{
     padding: 40px;
 }
+.meet-host-card{
+    flex-direction: column;
+    width: 400px;
+    height: 100%;
+    text-align: center;
+}
+.meet-host-section h1{
+    font-size: 32px;
+    padding: 0px 0px 24px 0px;
+}
+.meet-icons{
+    justify-content: center;
+}
+.meet-host-right-content h2{
+    font-size: 24px;
+}
+.meet-host-card{
+    padding: 24px 24px;
+}
+.meet-host-section{
+    padding-bottom: 40px;
+}
 }
