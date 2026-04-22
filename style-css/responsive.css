@@ -19,6 +19,9 @@
         border-radius: 50%;
         top: 160px;
     }
+    .hero-content h1{
+    font-size: 40px;
+}
     .hero-background-circle img{
         width: 46.67px;
         height: 70px;
@@ -27,6 +30,9 @@
         top: 0px;
         left: 185px;
     }
+    .about-part-one h1{
+    font-size: 32px;
+}
     .about-part-one{
         width: 100%;
     }
@@ -116,5 +122,17 @@
 }
 .meet-host-section{
     padding-bottom: 40px;
+}
+.footer-icons{
+    grid-template-columns: repeat(2, auto);
+    gap: 16px;
+    padding: 24px 0px;
+    justify-content: center;
+}
+.footer-logo h1{
+    font-size: 35px;
+}
+.footer-bg{
+    height: 248px;
 }
 }
