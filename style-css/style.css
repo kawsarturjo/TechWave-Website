@@ -52,6 +52,10 @@ nav li a{
     align-items: center;
     gap: 4px;
 }
+.btn:hover{
+    border: 1px solid #00FF88;
+    background: transparent;
+}
 .header-mobile-img{
     display: none;
 }
@@ -124,6 +128,11 @@ nav li a{
     justify-content: center;
     align-items: center;
     gap: 4px;
+}
+.btn-2:hover{
+    background: linear-gradient(50deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    border: none;
+    color: #FFFFFF;
 }
 .hero-button{
     display: flex;
