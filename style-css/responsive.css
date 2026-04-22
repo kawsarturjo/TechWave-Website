@@ -14,10 +14,10 @@
         cursor: pointer;
     }
     .hero-background-circle{
-        width: 250px;
-        height: 250px;
+        width: 100%;
+        height: 100%;
         border-radius: 50%;
-        top: 160px;
+        top: -100px;
     }
     .hero-content h1{
     font-size: 40px;
@@ -27,8 +27,8 @@
         height: 70px;
     }
     .hero-background-circle span{
-        top: 0px;
-        left: 185px;
+        top: 210px;
+        left: 360px;
     }
     .about-part-one h1{
     font-size: 32px;
